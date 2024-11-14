@@ -1,0 +1,16 @@
+.cell {
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .cell.revealed {
+    background-color: white;
+    border: 1px solid #bbb;
+  }
+  
